@@ -7,14 +7,25 @@
     <title>Images Search</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
-    <img src="img/logo-light.png" alt="Google Logo">
-    <form action="https://images.google.com/search">
-        <input type="text" name="q">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="submit" value="Image Search">
-    </form>
+    <div id="container">
+        <div id="nav-bar">
+            <ul>
+                <a class="nav-link" href="index.html">Home</a>
+            </ul>
+        </div>
+        <div id="main">
+            <img src="img/logo-light.png" alt="Google Logo">
+            <form action="https://images.google.com/search">
+                <div>
+                    <input id="search-input" type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                </div>
+                <div>
+                    <input class="button" type="submit" value="Image Search">
+                </div>
+            </form>
+        </div>
+        <div id="footer"></div>
+    </div>
 </body>
 </html>

@@ -7,21 +7,26 @@
     <title>Search</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <ul>
-            <li class="nav-link"><a href="images.html">Images</a></li>
-            <li class="nav-link"><a href="advanced-search.html">Advanced Search</a></li>
-        </ul>
-    </nav>
-    <img src="img/logo-light.png" alt="Google Logo">
-    <form action="https://www.google.com/search">
-        <div>
-            <input type="text" name="q">
+    <div id="container">
+        <div id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="images.html">Images</a></li>
+                <li><a class="nav-link" href="advanced-search.html">Advanced Search</a></li>
+            </ul>
         </div>
-        <div>
-            <input type="submit" name="btnK" value="Google Search">
-            <input type="submit" name="btnI" value="I'm feeling lucky">
+        <div id="main">
+            <img src="img/logo-light.png" alt="Google Logo">
+            <form action="https://www.google.com/search">
+                <div>
+                    <input id="search-input" type="text" name="q">
+                </div>
+                <div>
+                    <input class="button" type="submit" name="btnK" value="Google Search">
+                    <input class="button" type="submit" name="btnI" value="I'm feeling lucky">
+                </div>
+            </form>
         </div>
-    </form>
+        <div id="footer"></div>
+    </div>
 </body>
 </html>
