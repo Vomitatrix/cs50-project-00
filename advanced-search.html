@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles-advanced.css">
+    <link rel="stylesheet" href="styles/styles-advanced.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
 </head>
@@ -20,30 +20,80 @@
         </div>
         <div id="main">
             <form action="https://www.google.com/search">
-                <div id="form-header">
-                    <span class="label-column">Find pages with...</span>
-                    <div class="search-input-column"></div>
-                    <span class="instruction-column">To do this in the search box</span>
+                <div id="form-header" class="row">
+
+                    <div class="label-column">
+                        <span>Find pages with...</span>
+                    </div>
+
+                    <div class="search-input-column">
+                        <div></div>
+                    </div>
+
+                    <div class="instruction-column">
+                        <span>To do this in the search box</span>
+                    </div>
+
                 </div>
-                <div>
-                    <label class="label-column" for="as_q">all these words:</label>
-                    <input class="search-input-column" type="text" name="as_q">
-                    <span class="instruction-column">Type the important words: <span class="example">tricolor rat terrier</span></span>
+                <div class="row">
+
+                    <div class="label-column">
+                        <label for="as_q">all these words:</label>
+                    </div>
+
+                    <div class="search-input-column">
+                        <input class="input-field" type="text" name="as_q">
+                    </div>
+
+                    <div class="instruction-column">
+                        <span>Type the important words: <span class="example">tricolor rat terrier</span></span>
+                    </div>
+
                 </div>
-                <div>
-                    <label class="label-column" for="as_epq">this exact word or phrase:</label>
-                    <input class="search-input-column" type="text" name="as_epq">
-                    <span class="instruction-column">Put exact words in quotes: <span class="example">"rat terrier"</span></span>
+                <div class="row">
+
+                    <div class="label-column">
+                        <label for="as_epq">this exact word or phrase:</label>
+                    </div>
+
+                    <div class="search-input-column">
+                        <input class="input-field" type="text" name="as_epq">
+                    </div>
+
+                    <div class="instruction-column">
+                        <span>Put exact words in quotes: <span class="example">"rat terrier"</span></span>
+                    </div>
+
                 </div>
-                <div>
-                    <label class="label-column" for="as_oq">any of these words:</label>
-                    <input class="search-input-column" type="text" name="as_oq">
-                    <span class="instruction-column">Type OR between all the words you want: <span class="example">miniature OR stadard</span></span>
+                <div class="row">
+
+                    <div class="label-column">
+                        <label for="as_oq">any of these words:</label>
+                    </div>
+
+                    <div class="search-input-column">
+                        <input class="input-field" type="text" name="as_oq">
+                    </div>
+
+                    <div class="instruction-column">
+                        <span>Type OR between all the words you want: <span class="example">miniature OR stadard</span></span>
+                    </div>
+
                 </div>
-                <div>
-                    <label class="label-column" for="as_eq">none of these words:</label>
-                    <input class="search-input-column" type="text" name="as_eq">
-                    <span class="instruction-column">Put a minus sign just before words you don't want: <span class="example">- rodent, -"Jack Russell"</span></span>
+                <div class="row">
+
+                    <div class="label-column">
+                        <label for="as_eq">none of these words:</label>
+                    </div>
+
+                    <div class="search-input-column">
+                        <input class="input-field" type="text" name="as_eq">
+                    </div>
+
+                    <div class="instruction-column">
+                        <span>Put a minus sign just before words you don't want: <span class="example">- rodent, -"Jack Russell"</span></span>
+                    </div>
+
                 </div>
                 <div>
                     <input type="submit" value="Advanced Search">
