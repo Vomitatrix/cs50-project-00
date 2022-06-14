@@ -87,3 +87,19 @@ form > div {
         display: none;
     }
 }
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+#button {
+    background-color: #4d90fe;
+    color: white;
+    margin-right: -10px;
+    border-radius: 2px;
+    border: 1px solid #3079ed;
+    height: 30px;
+    font-weight: bold;
+    padding: 0 12px;
+}
